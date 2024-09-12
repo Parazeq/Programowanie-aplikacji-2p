@@ -1,0 +1,16 @@
+body {
+    background-color: green;
+}
+
+header {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+section {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}

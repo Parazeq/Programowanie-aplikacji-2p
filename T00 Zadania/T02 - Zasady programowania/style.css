@@ -1,0 +1,23 @@
+body {
+    background-color: green;
+}
+
+header {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+section {
+    background-color: blueviolet;
+    color: white;
+}
+
+ table, th, td {
+     border: 1px solid black;
+ }
+
+td img {
+    width: 300px;
+    height: auto;
+}
