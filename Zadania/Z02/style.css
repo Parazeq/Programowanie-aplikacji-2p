@@ -1,0 +1,21 @@
+body {
+    background-color: green;
+}
+
+input {
+    margin: 2px;
+}
+
+header {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+section {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border: green 1px solid;
+}
