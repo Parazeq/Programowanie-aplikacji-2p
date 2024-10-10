@@ -1,0 +1,27 @@
+* {
+    font-family: "Century Gothic";
+}
+
+body {
+    background-color: green;
+}
+
+header {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+li, p {
+    text-align: left;
+}
+
+section {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border: green 1px solid;
+    margin-top: 20px;
+
+}
