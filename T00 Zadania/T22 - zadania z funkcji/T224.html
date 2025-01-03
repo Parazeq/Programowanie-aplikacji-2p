@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie T224</title>
+</head>
+<body>
+<script>
+    /*
+    Napisz funkcję, która będzie przyjmowała dwa argumenty liczbowe i będzie wypisywała mniejszą z nich w kolorze zielonym, a większą w czerwonym. W przypadku podania liczb jednakowych obie należy wyświetlić w kolorze niebieskim.
+     */
+    function liczby(x, y){
+        if (x > y){
+            document.write('<strong style="color: red"> x </strong>');
+            document.write('<strong style="color: green"> y </strong>');
+        }
+        else if (x < y){
+            document.write('<strong style="color: red"> y </strong>');
+            document.write('<strong style="color: green"> x </strong>');
+        }
+        else {
+            document.write('<strong style="color: blue"> x </strong>');
+            document.write('<strong style="color: blue"> y </strong>');
+        }
+        return (x, y)
+    }
+
+    console.log(liczby(7, 7))
+</script>
+</body>
+</html>

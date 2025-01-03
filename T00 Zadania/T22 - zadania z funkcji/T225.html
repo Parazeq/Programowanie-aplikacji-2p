@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie T225</title>
+</head>
+<body>
+<script>
+  /*
+  Napisz funkcję, która dla dwóch liczb całkowitych wyświetla ich wspólny dzielnik (przypomnij sobie algorytm Euklidesa).
+   */
+  function dzielnik(a, b) {
+      while (a !== b) {
+          if (a > b) {
+              a = a - b
+          } else {
+              a = b-a
+          }
+          return a
+      }
+  }
+  document.write(dzielnik(8, 4))
+</script>
+</body>
+</html>
